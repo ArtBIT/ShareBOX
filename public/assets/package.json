@@ -13,7 +13,7 @@
     "jquery-sieve": "git+https://github.com/rmm5t/jquery-sieve.git",
     "jqueryui": "~1.11.1",
     "jwerty": "~0.3.2",
-    "moment": "~2.9.0",
+    "moment": "~2.29.4",
     "popper.js": "^1.14.3",
     "tablesaw": "~1.0.4",
     "underscore": "~1.12.1"
