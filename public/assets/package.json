@@ -16,6 +16,6 @@
     "moment": "~2.9.0",
     "popper.js": "^1.14.3",
     "tablesaw": "~1.0.4",
-    "underscore": "~1.8.1"
+    "underscore": "~1.12.1"
   }
 }
