@@ -1,0 +1,379 @@
+/*!
+ * Start Bootstrap - SB Admin 2 Bootstrap Admin Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    background-color: #f8f8f8;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-top-links li a {
+    padding: 15px;
+    min-height: 50px;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+}
+
+.navbar-top-links .dropdown-messages {
+    margin-left: 5px;
+}
+
+.navbar-top-links .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-top-links .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+
+.subnav {
+    margin:0;
+    top: 0px;
+    z-index: 1020;
+    background-color: rgb(247,247,247); 
+    border-bottom: 1px solid #E1E1E1;
+    padding: 8px 0px 0px 0px;
+}
+
+@media(min-width:768px) {
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+.navbar-brand {
+    padding: 5px;
+    line-height: 40px;
+}
+img.logo {
+    max-height: 100%;
+    display: inline-block;
+}
+.fullrow {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+ul.breadcrumb {
+    margin-bottom: 0;
+}
+.page-header {
+    margin: 20px 0 10px;
+}
+
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.panel .slidedown .glyphicon {
+    margin-right: 5px;
+}
+
+.login-panel {
+    margin-top: 25%;
+}
+div.tablesaw-bar {
+    margin-right: 6px;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    background: 0 0;
+}
+
+table.dataTable thead .sorting_asc:after {
+    content: "\f0de";
+    float: right;
+    font-family: fontawesome;
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: "\f0dd";
+    float: right;
+    font-family: fontawesome;
+}
+
+table.dataTable thead .sorting:after {
+    content: "\f0dc";
+    float: right;
+    font-family: fontawesome;
+    color: rgba(50,50,50,.5);
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.show-grid [class^=col-] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+    background-color: #eee!important;
+}
+
+.show-grid {
+    margin: 15px 0;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+.alert.message {
+    margin: 0px;
+}
+
+.help-inline.error {
+    color:red;
+}
+.autocomplete-suggestions { border: 1px solid #CCC; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F5F5F5; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 4px 6px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+
+.dashboard-btns .btn {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 12px;
+  margin: 4px;
+  text-align: center;
+}
+.dashboard-btns .btn .fa {
+  font-size: 40px;
+  padding: 10px;
+}
+.dashboard-btns .btn .fa.fa-truck,
+.dashboard-btns .btn .fa.fa-truck2 {
+    padding: 7px;
+}
+.fa-truck2::before {
+    content: "\f0d1";
+}
+.fa-truck2::after {
+    font-size: 50%;
+    content: "\f161";
+    left: -8px;
+    position: relative;
+    top: -9px;
+}
+.dashboard-btns .btn span {
+    white-space: normal;
+}
+.chartapp {
+    min-width: 800px;
+}
+
+/* file input */
+.fileinput {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border: 1px dashed #AAA;
+    text-align: center;
+}
+.fileinput:hover {
+    position: relative;
+    border: 1px dashed #AAA;
+    background: #DDD;
+	cursor: pointer; /* "hand" cursor */
+}
+.fileinput input[type=file] {
+	opacity: 0;
+    display: block;
+	overflow: hidden;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	z-index: 1;
+    top: 0;
+    left: 0;
+}
+.fileinput label {
+    line-height: 100px;
+    font-size: 1.25em;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* Bootstrap tweaks */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}

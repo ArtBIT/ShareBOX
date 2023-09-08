@@ -1,0 +1,21 @@
+{
+  "name": "ShareBOX",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "bootstrap-select": "~1.11.2",
+    "bs-confirmation": "~1.0.5",
+    "devbridge-autocomplete": "~1.2.26",
+    "font-awesome": "~4.3.0",
+    "jquery": "~1.11.1",
+    "jquery-contextmenu": "git+https://github.com/swisnl/jQuery-contextMenu.git",
+    "jquery-sieve": "git+https://github.com/rmm5t/jquery-sieve.git",
+    "jqueryui": "~1.11.1",
+    "jwerty": "~0.3.2",
+    "moment": "~2.9.0",
+    "popper.js": "^1.14.3",
+    "tablesaw": "~1.0.4",
+    "underscore": "~1.8.1"
+  }
+}

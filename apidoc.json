@@ -1,0 +1,10 @@
+{
+  "name": "ShareBOX API",
+  "version": "1.0.0",
+  "description": "Dokumentacija za ShareBOX API",
+  "title": "ShareBOX API",
+  "url" : "/api/v1",
+  "template": {
+      "forceLanguage": "sr"
+  }
+}

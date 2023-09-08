@@ -1,0 +1,81 @@
+.faq-header {
+  font-size: 2em;
+}
+.faq-header,
+.faq-c,
+.faq-underline {
+  margin: 1em 0;
+  border-bottom: 1px dotted #ccc;
+}
+.faq-c {
+  border: 1px dotted #ccc;
+}
+
+.faq-t {
+  line-height: 1em;
+  color: #aaa;
+  font-family: sans-serif;
+  float: left;
+  font-weight: 700;
+  padding: 0;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  transition: all 200ms;
+  margin: 5px;
+}
+
+.faq-o {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  transition: all 200ms;
+  margin: 5px 10px 2px 5px;
+}
+
+.faq-q {
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 100;
+  background: #EEE;
+  padding: 4px;
+}
+
+.faq-a {
+  clear: both;
+  color: #666;
+  display: none;
+  padding-left: 1.5em;
+  font-size: 1.2em;
+}
+
+.faq-a p {
+    margin: 10px;
+}
+
+.faq-a figure {
+    margin: 10px 0;
+    display: inline-block;
+    max-width: 100%;
+    border: 1px solid #DDD;
+    padding: 10px;
+}
+.faq-a figure figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+}
+.faq-a img {
+    cursor: zoom-out;
+    cursor: -webkit-zoom-out; 
+    cursor: -moz-zoom-out;
+}
+.faq-a img.small {
+    max-width: 300px;
+    cursor: zoom-in;
+    cursor: -webkit-zoom-in; 
+    cursor: -moz-zoom-in;
+}

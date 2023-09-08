@@ -1,0 +1,43 @@
+.chart-tooltip {
+    position:absolute;
+    z-index: 100;
+    display:none;
+    background:#fff;
+    border: 1px solid #999;
+    padding:10px;
+    width:auto;
+    box-shadow:0 0 10px rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+.chart-tooltip,
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently */
+}
+.chart-tooltip:after, .chart-tooltip:before {
+    right: 100%;
+    border: solid transparent;
+    content:" ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.chart-tooltip:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #ffffff;
+    border-width: 10px;
+    top: 50%;
+    margin-top: -10px;
+}
+.chart-tooltip:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #999;
+    border-width: 11px;
+    top: 50%;
+    margin-top: -11px;
+}

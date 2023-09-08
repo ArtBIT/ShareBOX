@@ -1,0 +1,6 @@
+{
+  "require": {
+    "codeigniter/framework": "3.0.4",
+    "artbit/isget": "1.0.0"
+  }
+}
