@@ -36,7 +36,7 @@ DOI: https://doi.org/10.24867/01GI00Ungar
 
 # ShareBOX API v1.0.0
 
-Dokumentacija za ShareBOX API
+[Dokumentacija za ShareBOX API](https://artbit.github.io/ShareBOX/)
 
 - [Grupe](#grupe)
 	- [Brisanje grupe](#brisanje-grupe)
