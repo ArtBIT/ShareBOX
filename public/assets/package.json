@@ -6,7 +6,7 @@
     "bootstrap": "~3.4.1",
     "bootstrap-select": "~1.13.6",
     "bs-confirmation": "~1.0.5",
-    "devbridge-autocomplete": "~1.2.26",
+    "devbridge-autocomplete": "~2.0.1",
     "font-awesome": "~4.3.0",
     "jquery": "~3.5.0",
     "jquery-contextmenu": "git+https://github.com/swisnl/jQuery-contextMenu.git",
